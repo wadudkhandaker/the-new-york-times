@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'NYTFranklin';
+    src: url('NYTFranklin-Light.eot');
+    src: url('NYTFranklin-Light.eot?#iefix') format('embedded-opentype'),
+        url('NYTFranklin-Light.woff2') format('woff2'),
+        url('NYTFranklin-Light.woff') format('woff'),
+        url('NYTFranklin-Light.svg#NYTFranklin-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

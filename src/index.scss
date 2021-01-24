@@ -1,0 +1,36 @@
+
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: local('NYTFranklin') url('/fonts/NYTFranklin-Light.eot');
+  src: local('NYTFranklin') url('/fonts/NYTFranklin-Light.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/NYTFranklin-Light.woff2') format('woff2'),
+      url('/fonts/NYTFranklin-Light.woff') format('woff'),
+      url('/fonts/NYTFranklin-Light.svg#NYTFranklin-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "nyt-franklin", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  .ant-layout {
+    background: white;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    .contain-wrapper {
+      position: relative;
+      top: 64px;
+      margin: 0px;
+      padding: 0;
+    }
+  }
+}
